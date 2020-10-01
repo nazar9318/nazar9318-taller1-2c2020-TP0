@@ -20,11 +20,11 @@ Se ejecutó el programa:
 
 -Con Valgrind:
 
-![conValgrind](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/conValgrind.png)
+![conValgrind](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso0_conValgrind.png)
 
 -Sin Valgrind:
 
-![sinValgrind](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/sinValgrind.png)
+![sinValgrind](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso0_sinValgrind.png)
 
 **b. ¿Para qué sirve ​ Valgrind​ ? ¿Cuáles son sus opciones más comunes?**
  Valgrind sirve para debuggear programas en linux, 
@@ -138,6 +138,7 @@ y el paréntesis que realiza la comparación
 
 6. Siempre debe haber espacio entre un if/else/while 
 y el paréntesis que realiza la comparación
+
 ![paso1_missingSpaceBefore(](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso1_missingSpaceBefore(.png)
 
 7. Siempre debe haber espacio entre un if/else/while 
