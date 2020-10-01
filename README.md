@@ -139,7 +139,7 @@ y el paréntesis que realiza la comparación
 6. Siempre debe haber espacio entre un if/else/while 
 y el paréntesis que realiza la comparación
 
-![paso1_missingSpaceBefore(](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso1_missingSpaceBefore(.png)
+![paso1_missingSpaceBefore](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso1_missingSpaceBefore.png)
 
 7. Siempre debe haber espacio entre un if/else/while 
 y el paréntesis que realiza la comparación
