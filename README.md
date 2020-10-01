@@ -348,6 +348,7 @@ el error del Paso 5, ahora la nueva lógica suma 1 palabra si se llega a EOF.
 **b. Captura de pantalla mostrando todas las entregas realizadas​, tanto exitosas como fallidas.**
 
 ![paso6_submissionHistory1](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso6_submissionHistory1.png)
+
 ![paso6_submissionHistory1](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso6_submissionHistory2.png)
 
 **c. Captura de pantalla mostrando la ejecución de la prueba ‘Single Word’ de forma local​ con las distintas variantes indicadas.**
