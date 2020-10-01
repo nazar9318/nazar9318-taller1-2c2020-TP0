@@ -27,13 +27,14 @@ Se ejecutó el programa:
 ![sinValgrind](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso0_sinValgrind.png)
 
 **b. ¿Para qué sirve ​ Valgrind​ ? ¿Cuáles son sus opciones más comunes?**
- Valgrind sirve para debuggear programas en linux, 
+
+Valgrind sirve para debuggear programas en linux, 
 para encontrar tanto errores como pérdidas de memoria.
- Estos problemas pueden ser: acceso indebido a una dirección de memoria,
+Estos problemas pueden ser: acceso indebido a una dirección de memoria,
 usar valores sin inicializar previamente, liberar memoria dos veces,
 escribir/leer en una dirección de memoria ya liberada, memory leaks
 
- La herramienta por defecto de Valgrind es Memcheck, 
+La herramienta por defecto de Valgrind es Memcheck, 
 que permite detectar los errores mencionados anteriormente.
 Las opciones más comunes de ésta herramienta son:
 
@@ -208,6 +209,7 @@ No se incluye la biblioteca que permite usar datos
 de tipo size__t y FILE, sin embargo se declara una
 función que devuelve un size_t y otra que tiene de
 parámetro de entrada un FILE.
+
 ![paso2c_unknownTypeSize](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso2c_unknownTypeSize.png)
 
 ![paso2c_sizeNotIncluded](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso2c_sizeNotIncluded.png)
@@ -236,6 +238,7 @@ el tipo de dato size_t y stdio.h contiene el tipo de dato FILE.
 
 La función wordscounter_destroy es declarada en el .h 
 pero no fue implementada en el .c, este es un error de linker.
+
 ![paso3_destryNoImplementado](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso3_destryNoImplementado.png)
 
 # Paso 4
@@ -311,6 +314,7 @@ el booleano **if (strchr(delim_words, c) != NULL)** nunca devuelve true,
 **c. Captura de pantalla de la ejecución del comando hexdump. ¿Cuál es el último carácter del archivo input_single_word.txt?**
 
 ![paso5c_singleWordHex](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso5c_singleWordHex.png)
+
 El último caracter es 'd', no se observan caracteres limitadores
 
 **d. Captura de pantalla con el resultado de la ejecución con gdb. Explique brevemente los comandos utilizados en gdb. ¿Por qué motivo el debugger no se detuvo en el breakpoint de la línea 45: self->words++; ?**
@@ -343,7 +347,8 @@ el error del Paso 5, ahora la nueva lógica suma 1 palabra si se llega a EOF.
 
 **b. Captura de pantalla mostrando todas las entregas realizadas​, tanto exitosas como fallidas.**
 
-
+![paso6_submissionHistory1](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso6_submissionHistory1.png)
+![paso6_submissionHistory1](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso6_submissionHistory2.png)
 
 **c. Captura de pantalla mostrando la ejecución de la prueba ‘Single Word’ de forma local​ con las distintas variantes indicadas.**
 
