@@ -98,6 +98,8 @@ int main(){
 ```
 Devuelve 8
 
+Y qué pasa si hacés una estructura que contenga a esas dos estructuras? Se cumple esa fórmula que planteás?
+
 **e. Investigar la existencia de los archivos estándar: STDIN, STDOUT, STDERR. Explicar brevemente su uso y cómo redirigirlos en caso de ser necesario (caracteres >​ y < ) y como conectar la salida estándar de un proceso a la entrada estándar de otro con un pipe​ (carácter |).**
 
    STDIN STDOUT y STDERR son flujos de datos que conectan la entrada 
@@ -224,6 +226,7 @@ ocurre el siguiente error:
 ![paso2c_conflictingTypes](https://github.com/nazar9318/nazar9318-taller1-2c2020-TP0/blob/master/assets/paso2c_conflictingTypes.png)
 
 Todos son errores de compilación.
+Ojo, también está pasando lo de los warnings tratados como error (la clave está en ver el -W)
 
 # Paso 3
 
@@ -269,6 +272,7 @@ error que causa que el programa deba terminar inmediatamente.
 
 Strncpy no tiene en cuenta la longitud del destino donde copia el dato, por lo
 tanto la ejecución de la prueba también terminaría en error de buffer overflow.
+Sí lo tiene en cuenta, en este código el problema es que está mal seteado el N.
 
 **e. Explicar de qué se trata un segmentation fault y un buffer overflow.**
 
